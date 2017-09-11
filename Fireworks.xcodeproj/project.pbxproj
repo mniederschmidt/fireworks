@@ -12,6 +12,8 @@
 		9344448A1F65BF26003A0C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934444881F65BF26003A0C59 /* Main.storyboard */; };
 		9344448C1F65BF26003A0C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9344448B1F65BF26003A0C59 /* Assets.xcassets */; };
 		9344448F1F65BF26003A0C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9344448D1F65BF26003A0C59 /* LaunchScreen.storyboard */; };
+		934444971F65D1CE003A0C59 /* CountdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934444961F65D1CE003A0C59 /* CountdownViewController.swift */; };
+		934444991F66248E003A0C59 /* FireworksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934444981F66248E003A0C59 /* FireworksModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9344448B1F65BF26003A0C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9344448E1F65BF26003A0C59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		934444901F65BF26003A0C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934444961F65D1CE003A0C59 /* CountdownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownViewController.swift; sourceTree = "<group>"; };
+		934444981F66248E003A0C59 /* FireworksModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireworksModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				934444841F65BF26003A0C59 /* AppDelegate.swift */,
 				934444861F65BF26003A0C59 /* ViewController.swift */,
 				934444881F65BF26003A0C59 /* Main.storyboard */,
+				934444961F65D1CE003A0C59 /* CountdownViewController.swift */,
+				934444981F66248E003A0C59 /* FireworksModel.swift */,
 				9344448B1F65BF26003A0C59 /* Assets.xcassets */,
 				9344448D1F65BF26003A0C59 /* LaunchScreen.storyboard */,
 				934444901F65BF26003A0C59 /* Info.plist */,
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				934444991F66248E003A0C59 /* FireworksModel.swift in Sources */,
+				934444971F65D1CE003A0C59 /* CountdownViewController.swift in Sources */,
 				934444871F65BF26003A0C59 /* ViewController.swift in Sources */,
 				934444851F65BF26003A0C59 /* AppDelegate.swift in Sources */,
 			);
