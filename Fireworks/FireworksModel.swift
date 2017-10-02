@@ -9,7 +9,7 @@
 import Foundation
 
 protocol FireworksModelDelegate: class {
-    func currentCountdownUpdated(with newValue: Int)
+    func countdownUpdated(with newValue: Int)
     func timerFinished()
 }
 
@@ -26,7 +26,7 @@ class FireworksModel {
         switch  currentCountdownValue {
         case 2...10:
             currentCountdownValue -= 1
-            delegate?.currentCountdownUpdated(with: currentCountdownValue)
+            delegate?.countdownUpdated(with: currentCountdownValue)
             break
         default:
             timer.invalidate()

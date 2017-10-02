@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9310368A1F829C0400FCD548 /* FireworksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931036891F829C0400FCD548 /* FireworksViewController.swift */; };
+		9310368C1F82A05200FCD548 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9310368B1F82A05200FCD548 /* UIColorExtension.swift */; };
 		934444851F65BF26003A0C59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934444841F65BF26003A0C59 /* AppDelegate.swift */; };
 		934444871F65BF26003A0C59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934444861F65BF26003A0C59 /* ViewController.swift */; };
 		9344448A1F65BF26003A0C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934444881F65BF26003A0C59 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		931036891F829C0400FCD548 /* FireworksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireworksViewController.swift; sourceTree = "<group>"; };
+		9310368B1F82A05200FCD548 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		934444811F65BF26003A0C59 /* Fireworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fireworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		934444841F65BF26003A0C59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		934444861F65BF26003A0C59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				934444861F65BF26003A0C59 /* ViewController.swift */,
 				934444881F65BF26003A0C59 /* Main.storyboard */,
 				934444961F65D1CE003A0C59 /* CountdownViewController.swift */,
+				931036891F829C0400FCD548 /* FireworksViewController.swift */,
+				9310368B1F82A05200FCD548 /* UIColorExtension.swift */,
 				934444981F66248E003A0C59 /* FireworksModel.swift */,
 				9344448B1F65BF26003A0C59 /* Assets.xcassets */,
 				9344448D1F65BF26003A0C59 /* LaunchScreen.storyboard */,
@@ -145,7 +151,9 @@
 				934444991F66248E003A0C59 /* FireworksModel.swift in Sources */,
 				934444971F65D1CE003A0C59 /* CountdownViewController.swift in Sources */,
 				934444871F65BF26003A0C59 /* ViewController.swift in Sources */,
+				9310368A1F829C0400FCD548 /* FireworksViewController.swift in Sources */,
 				934444851F65BF26003A0C59 /* AppDelegate.swift in Sources */,
+				9310368C1F82A05200FCD548 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +317,7 @@
 				934444951F65BF26003A0C59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

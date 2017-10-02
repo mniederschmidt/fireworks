@@ -55,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="1012" y="-560.86956521739137"/>
         </scene>
-        <!--View Controller-->
+        <!--Fireworks View Controller-->
         <scene sceneID="tbl-kM-ZIp">
             <objects>
-                <viewController id="YdN-Zn-iy9" sceneMemberID="viewController">
+                <viewController id="YdN-Zn-iy9" customClass="FireworksViewController" customModule="Fireworks" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bdi-7s-JeX"/>
                         <viewControllerLayoutGuide type="bottom" id="Lpi-e5-M8h"/>
@@ -165,6 +165,28 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outletCollection property="fireworks" destination="3hJ-Rh-y1o" collectionClass="NSMutableArray" id="6zg-fb-M8c"/>
+                        <outletCollection property="fireworks" destination="PvT-jo-vCa" collectionClass="NSMutableArray" id="IUm-e1-Pdc"/>
+                        <outletCollection property="fireworks" destination="0mD-C3-uZ3" collectionClass="NSMutableArray" id="mdw-Yh-9J2"/>
+                        <outletCollection property="fireworks" destination="IWw-Yy-BEf" collectionClass="NSMutableArray" id="5RU-pz-qXh"/>
+                        <outletCollection property="fireworks" destination="dbX-Bc-qcV" collectionClass="NSMutableArray" id="3xH-eI-mH6"/>
+                        <outletCollection property="fireworks" destination="Dee-CH-Cie" collectionClass="NSMutableArray" id="ptP-qL-MMH"/>
+                        <outletCollection property="fireworks" destination="2k9-KN-744" collectionClass="NSMutableArray" id="yFv-eo-Dc2"/>
+                        <outletCollection property="fireworks" destination="qTA-F1-SvN" collectionClass="NSMutableArray" id="p8p-Kx-dPP"/>
+                        <outletCollection property="fireworks" destination="H64-or-tIu" collectionClass="NSMutableArray" id="mcG-jb-iPE"/>
+                        <outletCollection property="fireworks" destination="0hh-zS-gkT" collectionClass="NSMutableArray" id="2bI-UA-hi3"/>
+                        <outletCollection property="fireworks" destination="tBb-OJ-Hrf" collectionClass="NSMutableArray" id="SC5-Ef-84d"/>
+                        <outletCollection property="fireworks" destination="zYG-LS-ES7" collectionClass="NSMutableArray" id="bDe-Ua-oP3"/>
+                        <outletCollection property="fireworks" destination="3ZI-h0-UQG" collectionClass="NSMutableArray" id="zzM-Yl-T3w"/>
+                        <outletCollection property="fireworks" destination="yKB-T6-RaY" collectionClass="NSMutableArray" id="Wmo-ov-bCs"/>
+                        <outletCollection property="fireworks" destination="yKB-T6-RaY" collectionClass="NSMutableArray" id="Ubn-rE-mfQ"/>
+                        <outletCollection property="fireworks" destination="CBV-iE-B5W" collectionClass="NSMutableArray" id="cK4-aN-6qS"/>
+                        <outletCollection property="fireworks" destination="cpG-OK-Hkp" collectionClass="NSMutableArray" id="QWh-su-JWf"/>
+                        <outletCollection property="fireworks" destination="yRt-H6-EVm" collectionClass="NSMutableArray" id="gd9-49-fAj"/>
+                        <outletCollection property="fireworks" destination="T6V-vt-NNg" collectionClass="NSMutableArray" id="TBh-ve-W6Y"/>
+                        <outletCollection property="fireworks" destination="XbT-nt-WdU" collectionClass="NSMutableArray" id="aGh-sp-R2P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xaU-kf-EfY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
